@@ -1,0 +1,2 @@
+parabank REST API - get account 13344 returns 500. called from postman. response saved as api_response.json
+expected 200 with account details. other account 13455 returns 200 fine.

@@ -1,0 +1,1 @@
+orangehrm demo - dashboard widgets blank after login as Admin. edge 130. took screenshot of devtools console, see console.png

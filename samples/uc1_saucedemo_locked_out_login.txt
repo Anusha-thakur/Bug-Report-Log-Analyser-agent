@@ -1,0 +1,4 @@
+saucedemo login fails for locked_out_user. chrome 130 win 11.
+entered username locked_out_user + pwd secret_sauce, clicked Login
+red error: "Epic sadface: Sorry, this user has been locked out."
+standard_user logs in fine with same pwd. need this acct for checkout regression. tried 3 times.

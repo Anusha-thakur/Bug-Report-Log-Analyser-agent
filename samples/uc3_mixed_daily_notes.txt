@@ -1,0 +1,6 @@
+eod 05-Nov
+parabank: transfer not recorded - critical. register internal error - critical, fixed by restarting db, retested ok
+orangehrm: employee search 2 bugs (one dup), leave apply spinner - high
+demoblaze: add to cart twice - high, empty cart order - medium
+demoqa: submit btn blocked - medium
+some more found in automationexercise, will log tomorrow

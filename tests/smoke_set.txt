@@ -1,0 +1,8 @@
+samples/uc1_orangehrm_login_after_reset.log
+samples/uc1_saucedemo_regression_long.log
+samples/uc1_vague_cart_note.txt
+samples/uc1_parabank_transfer_not_recorded.txt
+samples/uc2_saucedemo_reports.md
+samples/uc3_mixed_daily_notes.txt
+samples/uc1_parabank_register_internal_error.log
+samples/attachments/uc1_att_console_secrets_screenshot

@@ -1,0 +1,5 @@
+dynamic loading example 2 (/dynamic_loading/2): click Start, loading bar shows, then disappears and "Hello World!" never appears.
+waited 30s. example 1 works. chrome 130.
+console:
+Uncaught TypeError: Cannot set properties of null (setting 'innerHTML')
+    at finishLoading (dynamic_loading.js:14:22)

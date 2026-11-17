@@ -1,0 +1,2 @@
+demoblaze: with EMPTY cart, clicked Place Order, filled name/card, Purchase -> "Thank you for your purchase!" Amount: 0 USD, order id 7731924.
+should not allow order with empty cart.

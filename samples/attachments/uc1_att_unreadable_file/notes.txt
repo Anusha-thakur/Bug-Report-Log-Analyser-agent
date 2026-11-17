@@ -1,0 +1,1 @@
+saucedemo checkout crashes, see screenshot crash.png and har file network.har

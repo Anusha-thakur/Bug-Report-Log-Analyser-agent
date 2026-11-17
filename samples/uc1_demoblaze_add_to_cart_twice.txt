@@ -1,0 +1,5 @@
+demoblaze: click Add to cart once on Samsung galaxy s6, alert "Product added", but cart shows it 2 times, total 720 instead of 360.
+happens every time. chrome 130.
+network:
+POST https://api.demoblaze.com/addtocart 200 {"id":"fake-1","prod_id":1}
+POST https://api.demoblaze.com/addtocart 200 {"id":"fake-2","prod_id":1}

@@ -1,0 +1,4 @@
+orangehrm PIM: created new employee "Test Kumar" emp id 0451 at 14:20. saved ok, success toast.
+PIM > Employee List > search by name "Test Kumar" -> "No Records Found". waited 10 min, still nothing.
+search by id 0451 finds him. chrome 130.
+network: GET /web/index.php/api/v2/pim/employees?nameOrId=Test%20Kumar&includeEmployees=onlyCurrent  200  {"data":[],"meta":{"total":0}}

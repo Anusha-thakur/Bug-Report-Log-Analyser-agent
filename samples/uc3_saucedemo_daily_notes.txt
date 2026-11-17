@@ -1,0 +1,7 @@
+daily QA notes 04-Nov - saucedemo + herokuapp
+- 1 high: checkout finish no confirmation (nightly regression)
+- 2 medium: add to cart not working (problem_user), slow login performance_glitch_user
+- 2 low: product images same dog pic, broken images page
+- login locked_out_user - medium
+- resolved and retested: 1 (dynamic loading ex 2)
+- 1 retest pending, waiting for build

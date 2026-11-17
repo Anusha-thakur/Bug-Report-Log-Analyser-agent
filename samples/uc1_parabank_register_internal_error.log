@@ -1,0 +1,7 @@
+parabank register new user -> "An internal error has occurred and has been logged." login with existing john also fails same msg.
+server log (from our local parabank docker):
+2026-11-04 15:10:02 INFO  POST /parabank/register.htm
+2026-11-04 15:10:03 ERROR DataSource: Cannot get connection: java.net.ConnectException: Connection refused (localhost:9001)
+2026-11-04 15:10:03 ERROR RegisterController: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection
+2026-11-04 15:10:20 INFO  POST /parabank/login.htm
+2026-11-04 15:10:20 ERROR DataSource: Cannot get connection: java.net.ConnectException: Connection refused (localhost:9001)

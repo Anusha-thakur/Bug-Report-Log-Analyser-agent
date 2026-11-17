@@ -1,0 +1,37 @@
+TITLE: <what fails, where, for whom. No SIT/UAT/staging/production>
+== Defect summary
+<2-3 sentences>
+WHAT_IS_BROKEN: <one line>
+IMPACT: <one line>
+WHERE_TO_LOOK: <component, endpoint, file or container from the evidence, or Unknown>
+== Environment
+<environment>
+COMPONENT: <component>
+REPRODUCIBILITY: <Always | Intermittent | Once | Unknown>
+== Test data used
+<item> | <value>          (one row per line)
+== Preconditions (optional; omit if none)
+<text>
+== Steps to reproduce
+<one step per line>
+== Expected result
+<text>
+== Actual result
+<text>
+== Evidence
+SOURCE: <Browser console | Network log | Selenium log | Application log | None>
+LOG: <one exact log line per LOG: line, at most 10, secrets masked; omit if there are no logs>
+UI_MESSAGE: <exact on-screen message, if any>
+TRIM_NOTE: <if the log was trimmed>
+ATTACH: <screenshots/files to attach>
+EMBED_IMAGE: <full path to a supplied screenshot> | SENSITIVE: <what is visible, e.g. email, bearer token>   (leave out "| SENSITIVE: …" if nothing sensitive is visible; one line per image; omit if none)
+== Likely cause (hypothesis) (optional)
+<text>
+== Suggested investigation (optional)
+<one check per line>
+== Classification
+SEVERITY: <1 – Critical | 2 – High | 3 – Medium | 4 – Low | To be assessed> | <reason>
+PRIORITY: <1 | 2 | 3 | 4 | To be set by the team> | <reason>
+CRITICAL_FLAG: <Yes | No | To be assessed> | <reason>
+== Missing information
+<one question per line, at most 3, or None>

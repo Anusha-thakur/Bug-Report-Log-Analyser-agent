@@ -1,0 +1,8 @@
+demoqa practice form - automated test fails, Submit button cant be clicked. chrome 130 headless, window 1366x768.
+manually at 1920x1080 it works.
+selenium log:
+2026-11-04 09:31:02 INFO  Navigate https://demoqa.com/automation-practice-form
+2026-11-04 09:31:05 INFO  Filled firstName, lastName, email, gender, mobile
+2026-11-04 09:31:06 INFO  Click #submit
+2026-11-04 09:31:06 ERROR ElementClickInterceptedException: element click intercepted: Element <button id="submit"> is not clickable at point (683, 742). Other element would receive the click: <div id="fixedban">
+2026-11-04 09:31:06 INFO  Test PracticeForm_Submit FAILED

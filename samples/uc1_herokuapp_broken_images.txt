@@ -1,0 +1,5 @@
+/broken_images page: 2 of 3 images broken (show broken icon). 3rd ok.
+network:
+GET https://the-internet.herokuapp.com/asdf.jpg 404
+GET https://the-internet.herokuapp.com/hjkl.jpg 404
+GET https://the-internet.herokuapp.com/img/avatar-blank.jpg 200

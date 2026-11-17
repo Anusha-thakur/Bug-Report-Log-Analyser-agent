@@ -1,0 +1,2 @@
+login fails for visual_user on saucedemo, see screenshot login_error.png. chrome 130 windows 11.
+used the normal password from the login page. standard_user works.

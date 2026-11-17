@@ -1,0 +1,3 @@
+problem_user: Add to cart button does nothing for Sauce Labs Bolt T-Shirt and Sauce Labs Fleece Jacket.
+button doesnt change to Remove, cart badge stays same. other 4 items work.
+standard_user all 6 items work. chrome 130 win 11. no console errors.

@@ -1,0 +1,24 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "https://parabank.parasoft.com/parabank/services/bank/accounts/13344",
+    "headers": {
+      "Accept": "application/json",
+      "x-api-key": "FAKEapiKEY-7788-ABCD-0000"
+    }
+  },
+  "response": {
+    "status": 500,
+    "timestamp": "2026-11-06T10:12:44Z",
+    "requestId": "req-5f2a91",
+    "body": {
+      "error": "Internal Server Error",
+      "message": "NullPointerException: account.customer is null",
+      "path": "/parabank/services/bank/accounts/13344",
+      "trace": [
+        "com.parasoft.parabank.service.AccountService.getAccount(AccountService.java:112)",
+        "com.parasoft.parabank.web.AccountController.get(AccountController.java:45)"
+      ]
+    }
+  }
+}

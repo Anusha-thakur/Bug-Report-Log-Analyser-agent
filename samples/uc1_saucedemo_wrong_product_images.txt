@@ -1,0 +1,2 @@
+problem_user: every product on inventory page shows the same dog picture instead of real product image.
+names + prices correct. standard_user images fine. chrome 130 win 11.

@@ -1,0 +1,25 @@
+# Local-only documentation
+docs/
+
+# Generated output
+reports/
+trimmed/
+inbox/
+**/tmp/
+*.masked.*
+*.extracted.txt
+
+# Python
+__pycache__/
+*.pyc
+.env
+.venv/
+venv/
+
+# Editor / OS
+.vscode/
+Thumbs.db
+desktop.ini
+
+# Personal Claude Code permissions
+.claude/settings.local.json

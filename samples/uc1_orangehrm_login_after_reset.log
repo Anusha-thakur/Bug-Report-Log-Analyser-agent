@@ -1,0 +1,9 @@
+orangehrm demo - Admin cannot login after testing forgot password flow. edge 130. log from devtools + api:
+
+2026-11-04 11:02:10 INFO  POST /web/index.php/auth/requestResetPassword user=Admin email=qa.lead@fake-mail.test
+2026-11-04 11:02:11 INFO  Reset email queued
+2026-11-04 11:04:45 INFO  POST /web/index.php/auth/validate username=Admin password=admin123
+2026-11-04 11:04:46 ERROR AuthService: credentials invalid for user Admin (password_hash mismatch)
+2026-11-04 11:04:46 DEBUG Request headers: Cookie: orangehrm=FAKEc00kie9f8e7d; Authorization: Bearer eyJhbGciOiJIUzI1NiFAKE.eyJ1c2VyIjoiQWRtaW4ifQFAKE.sigFAKE
+2026-11-04 11:04:46 INFO  Response 302 /web/index.php/auth/login?error=invalid
+UI shows "Invalid credentials". reset link email never arrived.

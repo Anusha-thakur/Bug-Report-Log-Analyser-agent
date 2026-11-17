@@ -1,0 +1,3 @@
+automationexercise contact us page: when I attach a file and click Submit nothing happens. without file it works and shows success msg.
+file: test_upload.pdf 120KB. chrome 130.
+console: Uncaught TypeError: Cannot read properties of null (reading 'files') at contact_us.js:27

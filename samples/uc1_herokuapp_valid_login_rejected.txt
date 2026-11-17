@@ -1,0 +1,6 @@
+the-internet herokuapp /login page. valid creds tomsmith / SuperSecretPassword! rejected
+msg "Your username is invalid!" in red banner. firefox 132, macOS 14.
+happened from ~10:15 today, worked yesterday. invalid pwd gives "Your password is invalid!" correctly.
+network tab:
+POST https://the-internet.herokuapp.com/authenticate  302 -> /login
+Set-Cookie: rack.session=FAKEsess1on123; path=/; HttpOnly

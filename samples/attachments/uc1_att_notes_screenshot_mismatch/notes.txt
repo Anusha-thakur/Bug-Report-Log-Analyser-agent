@@ -1,0 +1,1 @@
+herokuapp checkboxes page - clicking checkbox 1 does not tick it. chrome. screenshot attached checkboxes.png

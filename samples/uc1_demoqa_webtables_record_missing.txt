@@ -1,0 +1,3 @@
+demoqa web tables: added record First=Asha Last=Rao age 29 email asha.rao@fake-mail.test salary 50000 dept QA.
+row shows in table. after page refresh, row is gone. the 3 default rows still there.
+not sure if this demo table is meant to save records

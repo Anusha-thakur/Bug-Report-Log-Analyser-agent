@@ -1,0 +1,267 @@
+note: nightly saucedemo regression (selenium, chrome 130 headless). 1 test failed, rest passed. full log below.
+
+2026-11-04 07:00:04 INFO  PASS Checkout_Info_Validation (2.0s)
+2026-11-04 07:00:06 INFO  PASS Inventory_SortByName (2.1s)
+2026-11-04 07:00:08 INFO  START Inventory_SortByPrice
+2026-11-04 07:00:13 DEBUG Screenshot skipped (pass)
+2026-11-04 07:00:19 INFO  PASS Inventory_SortByName (0.8s)
+2026-11-04 07:00:20 DEBUG Find element by css [data-test='username']
+2026-11-04 07:00:25 INFO  PASS Login_StandardUser (1.7s)
+2026-11-04 07:00:27 DEBUG Screenshot skipped (pass)
+2026-11-04 07:00:28 DEBUG Screenshot skipped (pass)
+2026-11-04 07:00:33 DEBUG Find element by css [data-test='continue']
+2026-11-04 07:00:38 INFO  START Cart_Badge
+2026-11-04 07:00:42 INFO  START Inventory_SortByPrice
+2026-11-04 07:00:48 INFO  START Login_StandardUser
+2026-11-04 07:00:52 INFO  START Logout
+2026-11-04 07:00:57 INFO  START Cart_AddRemove
+2026-11-04 07:01:00 INFO  START Product_Detail
+2026-11-04 07:01:02 INFO  START Cart_AddRemove
+2026-11-04 07:01:06 DEBUG Find element by css [data-test='password']
+2026-11-04 07:01:10 DEBUG Find element by css [data-test='password']
+2026-11-04 07:01:14 DEBUG Find element by css [data-test='username']
+2026-11-04 07:01:15 INFO  START Cart_Badge
+2026-11-04 07:01:17 INFO  PASS Inventory_SortByName (3.5s)
+2026-11-04 07:01:23 DEBUG Find element by css [data-test='username']
+2026-11-04 07:01:27 DEBUG Element found
+2026-11-04 07:01:30 DEBUG Find element by css [data-test='username']
+2026-11-04 07:01:35 DEBUG Element found
+2026-11-04 07:01:40 DEBUG Screenshot skipped (pass)
+2026-11-04 07:01:45 DEBUG Find element by css [data-test='add-to-cart']
+2026-11-04 07:01:48 DEBUG Find element by css [data-test='shopping-cart-link']
+2026-11-04 07:01:50 DEBUG Screenshot skipped (pass)
+2026-11-04 07:01:54 INFO  START Inventory_SortByPrice
+2026-11-04 07:01:55 DEBUG Browser console: no errors
+2026-11-04 07:01:59 INFO  PASS Cart_Badge (3.0s)
+2026-11-04 07:02:03 DEBUG Browser console: no errors
+2026-11-04 07:02:04 DEBUG Browser console: no errors
+2026-11-04 07:02:09 DEBUG Find element by css [data-test='login-button']
+2026-11-04 07:02:15 DEBUG Screenshot skipped (pass)
+2026-11-04 07:02:17 DEBUG Element found
+2026-11-04 07:02:22 DEBUG Screenshot skipped (pass)
+2026-11-04 07:02:25 INFO  PASS Checkout_Info_Validation (3.4s)
+2026-11-04 07:02:26 DEBUG Browser console: no errors
+2026-11-04 07:02:29 INFO  START Login_StandardUser
+2026-11-04 07:02:33 DEBUG Find element by css [data-test='continue']
+2026-11-04 07:02:34 DEBUG Browser console: no errors
+2026-11-04 07:02:35 DEBUG Browser console: no errors
+2026-11-04 07:02:39 INFO  START Inventory_SortByPrice
+2026-11-04 07:02:43 DEBUG Screenshot skipped (pass)
+2026-11-04 07:02:48 INFO  START Login_StandardUser
+2026-11-04 07:02:54 DEBUG Browser console: no errors
+2026-11-04 07:02:57 DEBUG Screenshot skipped (pass)
+2026-11-04 07:03:01 INFO  PASS Menu_ResetAppState (1.0s)
+2026-11-04 07:03:02 INFO  START Cart_Badge
+2026-11-04 07:03:04 DEBUG Browser console: no errors
+2026-11-04 07:03:08 DEBUG Find element by css [data-test='username']
+2026-11-04 07:03:14 DEBUG Element found
+2026-11-04 07:03:20 DEBUG Element found
+2026-11-04 07:03:24 DEBUG Find element by css [data-test='password']
+2026-11-04 07:03:26 DEBUG Element found
+2026-11-04 07:03:28 INFO  START Inventory_SortByName
+2026-11-04 07:03:34 INFO  START Inventory_SortByPrice
+2026-11-04 07:03:38 DEBUG Screenshot skipped (pass)
+2026-11-04 07:03:42 DEBUG Browser console: no errors
+2026-11-04 07:03:47 INFO  START Menu_ResetAppState
+2026-11-04 07:03:50 INFO  PASS Login_StandardUser (2.7s)
+2026-11-04 07:03:53 INFO  START Cart_Badge
+2026-11-04 07:03:59 INFO  START Inventory_SortByName
+2026-11-04 07:04:02 DEBUG Browser console: no errors
+2026-11-04 07:04:03 DEBUG Browser console: no errors
+2026-11-04 07:04:09 DEBUG Find element by css [data-test='username']
+2026-11-04 07:04:13 DEBUG Screenshot skipped (pass)
+2026-11-04 07:04:18 DEBUG Element found
+2026-11-04 07:04:23 DEBUG Find element by css [data-test='shopping-cart-link']
+2026-11-04 07:04:27 DEBUG Browser console: no errors
+2026-11-04 07:04:31 DEBUG Browser console: no errors
+2026-11-04 07:04:32 INFO  PASS Logout (2.3s)
+2026-11-04 07:04:35 DEBUG Find element by css [data-test='login-button']
+2026-11-04 07:04:36 DEBUG Screenshot skipped (pass)
+2026-11-04 07:04:37 DEBUG Element found
+2026-11-04 07:04:40 INFO  START Login_StandardUser
+2026-11-04 07:04:44 DEBUG Element found
+2026-11-04 07:04:48 INFO  START Login_StandardUser
+2026-11-04 07:04:52 DEBUG Browser console: no errors
+2026-11-04 07:04:54 DEBUG Browser console: no errors
+2026-11-04 07:04:59 DEBUG Browser console: no errors
+2026-11-04 07:05:00 DEBUG Element found
+2026-11-04 07:05:06 INFO  PASS Checkout_Info_Validation (1.2s)
+2026-11-04 07:05:11 INFO  PASS Cart_Badge (2.6s)
+2026-11-04 07:05:13 INFO  PASS Cart_Badge (3.4s)
+2026-11-04 07:05:16 INFO  START Menu_ResetAppState
+2026-11-04 07:05:21 INFO  PASS Login_StandardUser (1.8s)
+2026-11-04 07:05:22 INFO  PASS Checkout_Info_Validation (2.3s)
+2026-11-04 07:05:23 INFO  START Menu_ResetAppState
+2026-11-04 07:05:28 DEBUG Screenshot skipped (pass)
+2026-11-04 07:05:31 DEBUG Element found
+2026-11-04 07:05:35 DEBUG Find element by css [data-test='shopping-cart-link']
+2026-11-04 07:05:39 INFO  START Login_StandardUser
+2026-11-04 07:05:40 DEBUG Browser console: no errors
+2026-11-04 07:05:43 INFO  PASS Product_Detail (1.8s)
+2026-11-04 07:05:47 INFO  START Inventory_SortByPrice
+2026-11-04 07:05:52 INFO  PASS Cart_Badge (1.3s)
+2026-11-04 07:05:56 INFO  PASS Login_StandardUser (2.5s)
+2026-11-04 07:06:01 DEBUG Browser console: no errors
+2026-11-04 07:06:06 INFO  PASS Cart_AddRemove (1.4s)
+2026-11-04 07:06:11 DEBUG Browser console: no errors
+2026-11-04 07:06:14 DEBUG Find element by css [data-test='login-button']
+2026-11-04 07:06:16 DEBUG Find element by css [data-test='username']
+2026-11-04 07:06:18 DEBUG Screenshot skipped (pass)
+2026-11-04 07:06:22 DEBUG Screenshot skipped (pass)
+2026-11-04 07:06:28 DEBUG Browser console: no errors
+2026-11-04 07:06:31 DEBUG Browser console: no errors
+2026-11-04 07:06:34 INFO  START Checkout_Info_Validation
+2026-11-04 07:06:38 INFO  PASS Inventory_SortByPrice (0.9s)
+2026-11-04 07:06:43 DEBUG Find element by css [data-test='shopping-cart-link']
+2026-11-04 07:06:45 DEBUG Find element by css [data-test='password']
+2026-11-04 07:06:48 DEBUG Browser console: no errors
+2026-11-04 07:06:52 DEBUG Screenshot skipped (pass)
+2026-11-04 07:06:56 INFO  PASS Checkout_Info_Validation (2.0s)
+2026-11-04 07:06:59 DEBUG Find element by css [data-test='continue']
+2026-11-04 07:07:01 DEBUG Element found
+2026-11-04 07:07:05 INFO  PASS Cart_AddRemove (1.2s)
+2026-11-04 07:07:06 DEBUG Browser console: no errors
+2026-11-04 07:07:12 INFO  PASS Logout (2.4s)
+2026-11-04 07:07:17 INFO  START Product_Detail
+2026-11-04 07:07:23 DEBUG Element found
+2026-11-04 07:07:28 DEBUG Screenshot skipped (pass)
+2026-11-04 07:07:30 DEBUG Element found
+2026-11-04 07:07:34 DEBUG Browser console: no errors
+2026-11-04 07:07:39 DEBUG Browser console: no errors
+2026-11-04 07:07:42 INFO  PASS Product_Detail (2.6s)
+2026-11-04 07:07:44 DEBUG Screenshot skipped (pass)
+2026-11-04 07:07:50 DEBUG Screenshot skipped (pass)
+2026-11-04 07:07:55 DEBUG Browser console: no errors
+2026-11-04 07:07:57 INFO  START Cart_Badge
+2026-11-04 07:07:59 DEBUG Element found
+2026-11-04 07:08:02 DEBUG Screenshot skipped (pass)
+2026-11-04 07:08:07 DEBUG Browser console: no errors
+2026-11-04 07:08:08 INFO  START Checkout_Info_Validation
+2026-11-04 07:08:12 DEBUG Find element by css [data-test='add-to-cart']
+2026-11-04 07:08:16 DEBUG Screenshot skipped (pass)
+2026-11-04 07:08:20 INFO  PASS Logout (2.2s)
+2026-11-04 07:08:23 DEBUG Browser console: no errors
+2026-11-04 07:08:26 DEBUG Browser console: no errors
+2026-11-04 07:08:29 INFO  PASS Login_StandardUser (2.9s)
+2026-11-04 07:08:30 DEBUG Screenshot skipped (pass)
+2026-11-04 07:08:31 INFO  PASS Product_Detail (1.9s)
+2026-11-04 07:08:37 DEBUG Find element by css [data-test='username']
+2026-11-04 07:08:41 DEBUG Find element by css [data-test='login-button']
+2026-11-04 07:08:42 DEBUG Browser console: no errors
+2026-11-04 07:08:46 INFO  START Inventory_SortByName
+2026-11-04 07:08:47 INFO  START Logout
+2026-11-04 07:08:50 DEBUG Screenshot skipped (pass)
+2026-11-04 07:08:52 DEBUG Browser console: no errors
+2026-11-04 07:08:57 INFO  PASS Logout (2.9s)
+2026-11-04 07:08:59 DEBUG Screenshot skipped (pass)
+2026-11-04 07:09:00 INFO  PASS Checkout_Info_Validation (2.9s)
+2026-11-04 07:09:03 DEBUG Browser console: no errors
+2026-11-04 07:09:08 DEBUG Find element by css [data-test='continue']
+2026-11-04 07:09:10 DEBUG Find element by css [data-test='shopping-cart-link']
+2026-11-04 07:09:16 DEBUG Element found
+2026-11-04 07:09:19 INFO  START Logout
+2026-11-04 07:09:21 INFO  START Checkout_Info_Validation
+2026-11-04 07:09:27 DEBUG Element found
+2026-11-04 07:09:31 DEBUG Element found
+2026-11-04 07:09:35 DEBUG Screenshot skipped (pass)
+2026-11-04 07:09:40 DEBUG Element found
+2026-11-04 07:09:44 INFO  PASS Inventory_SortByName (1.2s)
+2026-11-04 07:09:47 DEBUG Find element by css [data-test='shopping-cart-link']
+2026-11-04 07:09:51 DEBUG Element found
+2026-11-04 07:09:52 INFO  PASS Checkout_Info_Validation (2.0s)
+2026-11-04 07:09:56 INFO  START Menu_ResetAppState
+2026-11-04 07:09:57 INFO  START Checkout_Finish_Confirmation
+2026-11-04 07:09:57 INFO  Click #finish
+2026-11-04 07:09:57 ERROR TimeoutException: waited 10s for element h2.complete-header text 'Thank you for your order!'
+2026-11-04 07:09:57 ERROR Current URL still https://www.saucedemo.com/checkout-step-two.html
+2026-11-04 07:09:57 INFO  FAIL Checkout_Finish_Confirmation (10.4s)
+2026-11-04 07:10:00 DEBUG Browser console: no errors
+2026-11-04 07:10:03 DEBUG Element found
+2026-11-04 07:10:06 DEBUG Browser console: no errors
+2026-11-04 07:10:09 DEBUG Screenshot skipped (pass)
+2026-11-04 07:10:14 DEBUG Element found
+2026-11-04 07:10:18 DEBUG Browser console: no errors
+2026-11-04 07:10:23 DEBUG Element found
+2026-11-04 07:10:24 DEBUG Screenshot skipped (pass)
+2026-11-04 07:10:26 INFO  PASS Product_Detail (2.3s)
+2026-11-04 07:10:31 DEBUG Screenshot skipped (pass)
+2026-11-04 07:10:34 INFO  PASS Login_StandardUser (2.2s)
+2026-11-04 07:10:36 DEBUG Screenshot skipped (pass)
+2026-11-04 07:10:37 INFO  START Checkout_Info_Validation
+2026-11-04 07:10:40 DEBUG Element found
+2026-11-04 07:10:41 INFO  START Login_StandardUser
+2026-11-04 07:10:47 DEBUG Screenshot skipped (pass)
+2026-11-04 07:10:52 DEBUG Element found
+2026-11-04 07:10:55 DEBUG Browser console: no errors
+2026-11-04 07:10:56 DEBUG Browser console: no errors
+2026-11-04 07:10:59 DEBUG Screenshot skipped (pass)
+2026-11-04 07:11:04 INFO  START Login_StandardUser
+2026-11-04 07:11:05 DEBUG Find element by css [data-test='add-to-cart']
+2026-11-04 07:11:11 DEBUG Find element by css [data-test='continue']
+2026-11-04 07:11:14 DEBUG Element found
+2026-11-04 07:11:17 INFO  START Login_StandardUser
+2026-11-04 07:11:20 DEBUG Screenshot skipped (pass)
+2026-11-04 07:11:21 DEBUG Find element by css [data-test='username']
+2026-11-04 07:11:23 INFO  PASS Product_Detail (2.4s)
+2026-11-04 07:11:29 DEBUG Screenshot skipped (pass)
+2026-11-04 07:11:31 DEBUG Element found
+2026-11-04 07:11:37 DEBUG Element found
+2026-11-04 07:11:41 INFO  START Logout
+2026-11-04 07:11:45 DEBUG Find element by css [data-test='add-to-cart']
+2026-11-04 07:11:49 INFO  START Checkout_Info_Validation
+2026-11-04 07:11:55 DEBUG Element found
+2026-11-04 07:11:59 DEBUG Find element by css [data-test='continue']
+2026-11-04 07:12:03 INFO  PASS Inventory_SortByName (1.2s)
+2026-11-04 07:12:05 DEBUG Find element by css [data-test='shopping-cart-link']
+2026-11-04 07:12:10 DEBUG Find element by css [data-test='username']
+2026-11-04 07:12:12 DEBUG Browser console: no errors
+2026-11-04 07:12:17 INFO  START Inventory_SortByPrice
+2026-11-04 07:12:23 DEBUG Find element by css [data-test='shopping-cart-link']
+2026-11-04 07:12:27 DEBUG Screenshot skipped (pass)
+2026-11-04 07:12:29 DEBUG Screenshot skipped (pass)
+2026-11-04 07:12:31 INFO  START Cart_Badge
+2026-11-04 07:12:36 INFO  START Cart_Badge
+2026-11-04 07:12:39 DEBUG Browser console: no errors
+2026-11-04 07:12:43 INFO  START Menu_ResetAppState
+2026-11-04 07:12:49 DEBUG Browser console: no errors
+2026-11-04 07:12:55 INFO  START Menu_ResetAppState
+2026-11-04 07:12:59 INFO  PASS Login_StandardUser (1.4s)
+2026-11-04 07:13:01 INFO  PASS Cart_Badge (1.8s)
+2026-11-04 07:13:07 INFO  PASS Cart_Badge (2.8s)
+2026-11-04 07:13:13 DEBUG Screenshot skipped (pass)
+2026-11-04 07:13:19 DEBUG Element found
+2026-11-04 07:13:24 DEBUG Screenshot skipped (pass)
+2026-11-04 07:13:28 INFO  START Inventory_SortByPrice
+2026-11-04 07:13:30 INFO  START Inventory_SortByName
+2026-11-04 07:13:34 DEBUG Find element by css [data-test='username']
+2026-11-04 07:13:35 DEBUG Element found
+2026-11-04 07:13:39 DEBUG Find element by css [data-test='password']
+2026-11-04 07:13:45 DEBUG Screenshot skipped (pass)
+2026-11-04 07:13:50 DEBUG Browser console: no errors
+2026-11-04 07:13:53 INFO  PASS Cart_AddRemove (3.5s)
+2026-11-04 07:13:54 DEBUG Element found
+2026-11-04 07:14:00 DEBUG Find element by css [data-test='username']
+2026-11-04 07:14:05 INFO  PASS Product_Detail (3.0s)
+2026-11-04 07:14:11 DEBUG Element found
+2026-11-04 07:14:16 INFO  PASS Cart_AddRemove (2.5s)
+2026-11-04 07:14:18 DEBUG Browser console: no errors
+2026-11-04 07:14:20 INFO  START Login_StandardUser
+2026-11-04 07:14:22 DEBUG Browser console: no errors
+2026-11-04 07:14:25 DEBUG Element found
+2026-11-04 07:14:28 DEBUG Browser console: no errors
+2026-11-04 07:14:30 INFO  PASS Cart_AddRemove (2.3s)
+2026-11-04 07:14:31 DEBUG Browser console: no errors
+2026-11-04 07:14:34 INFO  START Inventory_SortByName
+2026-11-04 07:14:37 DEBUG Element found
+2026-11-04 07:14:39 INFO  START Inventory_SortByName
+2026-11-04 07:14:43 DEBUG Browser console: no errors
+2026-11-04 07:14:45 DEBUG Screenshot skipped (pass)
+2026-11-04 07:14:50 DEBUG Screenshot skipped (pass)
+2026-11-04 07:14:51 INFO  PASS Inventory_SortByName (1.8s)
+2026-11-04 07:14:55 DEBUG Element found
+2026-11-04 07:14:57 INFO  START Product_Detail
+2026-11-04 07:15:03 INFO  PASS Inventory_SortByName (3.4s)
+2026-11-04 07:15:04 INFO  PASS Menu_ResetAppState (1.9s)
+2026-11-04 07:15:10 DEBUG Screenshot skipped (pass)
+2026-11-04 07:15:16 INFO  START Logout
+2026-11-04 07:15:16 INFO  SUMMARY: 48 passed, 1 failed

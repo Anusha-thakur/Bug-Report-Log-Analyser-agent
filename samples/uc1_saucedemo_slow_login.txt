@@ -1,0 +1,2 @@
+performance_glitch_user login takes ~5 sec, standard_user < 1 sec. measured 5 runs: 5.1s 4.9s 5.3s 5.0s 5.2s
+chrome 130, devtools network: POST login fine, inventory.html load waiting ~5000ms
